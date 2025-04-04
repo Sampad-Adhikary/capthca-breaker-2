@@ -3,7 +3,7 @@ import numpy as np
 from os import listdir
 from os.path import isfile, join
 
-mypath = '1/'
+mypath = '2/'
 output = 'input/captcha-version-2-images/samples/'
 images = [f'{mypath}{f}' for f in listdir(mypath) if isfile(join(mypath, f))]
 

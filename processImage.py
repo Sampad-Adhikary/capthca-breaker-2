@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import os
 
-mypath = '1/'
-output_path = '1/'
+mypath = '2/'
+output_path = '2/'
 os.makedirs(output_path, exist_ok=True)
 
 image_paths = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
